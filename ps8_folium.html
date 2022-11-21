@@ -1,1 +1,1816 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_8a000e615547e58ceb1c1777b8c2fb6a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 850.0px;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_8a000e615547e58ceb1c1777b8c2fb6a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_8a000e615547e58ceb1c1777b8c2fb6a = L.map(
+                "map_8a000e615547e58ceb1c1777b8c2fb6a",
+                {
+                    center: [40.5292, -74.64],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
 
+            
+
+        
+    
+            var tile_layer_e7f7b76d4892ab5fd454459ff285ccb7 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+            var marker_7e6b1376980d131d71bd87f0471515d0 = L.marker(
+                [40.4864162187208, -74.51570080651199],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_0cf0d7e3e1ceb5f2df2db69ba3e17747 = L.popup({"maxWidth": "100%", "tooltip": "55 JIFFY RD"});
+
+        
+            var html_c826d1e4b91dce86419437d0da056c63 = $(`<div id="html_c826d1e4b91dce86419437d0da056c63" style="width: 100.0%; height: 100.0%;"><b>Name:</b> BRENNER, STEPHEN & ANNA</div>`)[0];
+            popup_0cf0d7e3e1ceb5f2df2db69ba3e17747.setContent(html_c826d1e4b91dce86419437d0da056c63);
+        
+
+        marker_7e6b1376980d131d71bd87f0471515d0.bindPopup(popup_0cf0d7e3e1ceb5f2df2db69ba3e17747)
+        ;
+
+        
+    
+    
+            var marker_c3ddfe61bd40ec70091e26879d425302 = L.marker(
+                [40.53523282126382, -74.5538822181115],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_9e24e578441be9225c346c28b27e8388 = L.popup({"maxWidth": "100%", "tooltip": "None"});
+
+        
+            var html_7818a3056c4f25e491d7588aeb510ad9 = $(`<div id="html_7818a3056c4f25e491d7588aeb510ad9" style="width: 100.0%; height: 100.0%;"><b>Name:</b> None</div>`)[0];
+            popup_9e24e578441be9225c346c28b27e8388.setContent(html_7818a3056c4f25e491d7588aeb510ad9);
+        
+
+        marker_c3ddfe61bd40ec70091e26879d425302.bindPopup(popup_9e24e578441be9225c346c28b27e8388)
+        ;
+
+        
+    
+    
+            var marker_cee9661b9fec6addede44a6e841244a1 = L.marker(
+                [40.5384531519343, -74.55319520015169],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_3c91fbf08e56ae20a8edcc0d2d315258 = L.popup({"maxWidth": "100%", "tooltip": "None"});
+
+        
+            var html_5f335b1a49486fea542ce5e8aff41f9a = $(`<div id="html_5f335b1a49486fea542ce5e8aff41f9a" style="width: 100.0%; height: 100.0%;"><b>Name:</b> None</div>`)[0];
+            popup_3c91fbf08e56ae20a8edcc0d2d315258.setContent(html_5f335b1a49486fea542ce5e8aff41f9a);
+        
+
+        marker_cee9661b9fec6addede44a6e841244a1.bindPopup(popup_3c91fbf08e56ae20a8edcc0d2d315258)
+        ;
+
+        
+    
+    
+            var marker_31c0f58bdedf2dbe39eb87f6a50cc5d7 = L.marker(
+                [40.479656689791355, -74.49832395999928],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_2eec5facc8ecd3d64635c1c5983396c7 = L.popup({"maxWidth": "100%", "tooltip": "54 VERONICA AVE"});
+
+        
+            var html_ea7a1da0247ba27e9a393ebd21145456 = $(`<div id="html_ea7a1da0247ba27e9a393ebd21145456" style="width: 100.0%; height: 100.0%;"><b>Name:</b> KAPP, L.L.C.</div>`)[0];
+            popup_2eec5facc8ecd3d64635c1c5983396c7.setContent(html_ea7a1da0247ba27e9a393ebd21145456);
+        
+
+        marker_31c0f58bdedf2dbe39eb87f6a50cc5d7.bindPopup(popup_2eec5facc8ecd3d64635c1c5983396c7)
+        ;
+
+        
+    
+    
+            var marker_4cdd0ecc412977f6d1e026b6a032a2db = L.marker(
+                [40.4824843389834, -74.5105663167725],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_b4ba6907c409d9a5296bf6c45e281583 = L.popup({"maxWidth": "100%", "tooltip": "20 ROOSEVELT AVE"});
+
+        
+            var html_a8420d2b733e6e291a55f0b1442e6f88 = $(`<div id="html_a8420d2b733e6e291a55f0b1442e6f88" style="width: 100.0%; height: 100.0%;"><b>Name:</b> FGC VERONICA, LLC%F. GREEK DEV.</div>`)[0];
+            popup_b4ba6907c409d9a5296bf6c45e281583.setContent(html_a8420d2b733e6e291a55f0b1442e6f88);
+        
+
+        marker_4cdd0ecc412977f6d1e026b6a032a2db.bindPopup(popup_b4ba6907c409d9a5296bf6c45e281583)
+        ;
+
+        
+    
+    
+            var marker_920a7e20591bee8cf17ca1838e069164 = L.marker(
+                [40.54044895760527, -74.55533361451155],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_2d6c23a292ea71def37f000ff923236f = L.popup({"maxWidth": "100%", "tooltip": "APGAR DR"});
+
+        
+            var html_d2a9879ee352ce65e64f8698ea72d230 = $(`<div id="html_d2a9879ee352ce65e64f8698ea72d230" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 800 APGAR ROAD ASSOCIATES, LLC</div>`)[0];
+            popup_2d6c23a292ea71def37f000ff923236f.setContent(html_d2a9879ee352ce65e64f8698ea72d230);
+        
+
+        marker_920a7e20591bee8cf17ca1838e069164.bindPopup(popup_2d6c23a292ea71def37f000ff923236f)
+        ;
+
+        
+    
+    
+            var marker_e99901c1177a45632e402d271b64dc37 = L.marker(
+                [40.48316396280511, -74.51222625165525],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_d001da3ffc14c75cd28f4fd3bd320fe9 = L.popup({"maxWidth": "100%", "tooltip": "95 CLYDE RD"});
+
+        
+            var html_ced3857a58fe283b8a217e1f21ed7dac = $(`<div id="html_ced3857a58fe283b8a217e1f21ed7dac" style="width: 100.0%; height: 100.0%;"><b>Name:</b> G&I IX 95 CLYDE, LLC</div>`)[0];
+            popup_d001da3ffc14c75cd28f4fd3bd320fe9.setContent(html_ced3857a58fe283b8a217e1f21ed7dac);
+        
+
+        marker_e99901c1177a45632e402d271b64dc37.bindPopup(popup_d001da3ffc14c75cd28f4fd3bd320fe9)
+        ;
+
+        
+    
+    
+            var marker_62110dc28d33b428f3e4fac6017b93e9 = L.marker(
+                [40.53117756571411, -74.55106203471446],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_50ec9d1ce3399e11e66634ac803bfd20 = L.popup({"maxWidth": "100%", "tooltip": "2301 COTTONTAIL LA"});
+
+        
+            var html_f1ded8941bb5e98acb7144d9c826af13 = $(`<div id="html_f1ded8941bb5e98acb7144d9c826af13" style="width: 100.0%; height: 100.0%;"><b>Name:</b> PARK 2301 COTTONTAIL LANE OWNER,LL</div>`)[0];
+            popup_50ec9d1ce3399e11e66634ac803bfd20.setContent(html_f1ded8941bb5e98acb7144d9c826af13);
+        
+
+        marker_62110dc28d33b428f3e4fac6017b93e9.bindPopup(popup_50ec9d1ce3399e11e66634ac803bfd20)
+        ;
+
+        
+    
+    
+            var marker_d33fc15aca9adcc3ee48a82ec6433d75 = L.marker(
+                [40.484702112595315, -74.51895529756392],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_7ccb9a0b8e4e8298946c6e4beaee45c8 = L.popup({"maxWidth": "100%", "tooltip": "55 COMMERCE DR"});
+
+        
+            var html_76e1df269a6d9e2f0696a40eca5dc2e5 = $(`<div id="html_76e1df269a6d9e2f0696a40eca5dc2e5" style="width: 100.0%; height: 100.0%;"><b>Name:</b> ROLLING FRITO-LAY%GEORGE MCELROY</div>`)[0];
+            popup_7ccb9a0b8e4e8298946c6e4beaee45c8.setContent(html_76e1df269a6d9e2f0696a40eca5dc2e5);
+        
+
+        marker_d33fc15aca9adcc3ee48a82ec6433d75.bindPopup(popup_7ccb9a0b8e4e8298946c6e4beaee45c8)
+        ;
+
+        
+    
+    
+            var marker_d51826f7f6c609a9e6d64c31a9eea7e0 = L.marker(
+                [40.47991901341376, -74.50250396127039],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_4785f2e1a7dc153b9ce49c3de072cf09 = L.popup({"maxWidth": "100%", "tooltip": "37-41 VERONICA AVE"});
+
+        
+            var html_a0f91c4306745be5b93e95386ab22167 = $(`<div id="html_a0f91c4306745be5b93e95386ab22167" style="width: 100.0%; height: 100.0%;"><b>Name:</b> TORSIELLO ASSOCIATES</div>`)[0];
+            popup_4785f2e1a7dc153b9ce49c3de072cf09.setContent(html_a0f91c4306745be5b93e95386ab22167);
+        
+
+        marker_d51826f7f6c609a9e6d64c31a9eea7e0.bindPopup(popup_4785f2e1a7dc153b9ce49c3de072cf09)
+        ;
+
+        
+    
+    
+            var marker_11f226261f9851302852cc33f8418867 = L.marker(
+                [40.478459603049615, -74.4961808682384],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_008f5f3cebbe36e3a39e3854ce4e213f = L.popup({"maxWidth": "100%", "tooltip": "62 VERONICA AVE"});
+
+        
+            var html_4f7e2db4885dacc6f73a5a7f244a0b99 = $(`<div id="html_4f7e2db4885dacc6f73a5a7f244a0b99" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 62 VERONICA, LLC</div>`)[0];
+            popup_008f5f3cebbe36e3a39e3854ce4e213f.setContent(html_4f7e2db4885dacc6f73a5a7f244a0b99);
+        
+
+        marker_11f226261f9851302852cc33f8418867.bindPopup(popup_008f5f3cebbe36e3a39e3854ce4e213f)
+        ;
+
+        
+    
+    
+            var marker_63b1c13b01fb59134478e5d515474d44 = L.marker(
+                [40.53261981126796, -74.55362320947711],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_9a1af5897648ed692a6cbe465068d224 = L.popup({"maxWidth": "100%", "tooltip": "None"});
+
+        
+            var html_f411c101cc2073a41c9c68723e0c9326 = $(`<div id="html_f411c101cc2073a41c9c68723e0c9326" style="width: 100.0%; height: 100.0%;"><b>Name:</b> None</div>`)[0];
+            popup_9a1af5897648ed692a6cbe465068d224.setContent(html_f411c101cc2073a41c9c68723e0c9326);
+        
+
+        marker_63b1c13b01fb59134478e5d515474d44.bindPopup(popup_9a1af5897648ed692a6cbe465068d224)
+        ;
+
+        
+    
+    
+            var marker_0fc9a77c18fd5e5b4bca7422f0d552ee = L.marker(
+                [40.530444291480165, -74.55443496289865],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_8bf368cc10911ca555a899855baf12c1 = L.popup({"maxWidth": "100%", "tooltip": "1100 RANDOLPH RD"});
+
+        
+            var html_cbbf896d229ae9d0a2ba97cdbc65756f = $(`<div id="html_cbbf896d229ae9d0a2ba97cdbc65756f" style="width: 100.0%; height: 100.0%;"><b>Name:</b> JWH REAL ESTATE HOLDINGS%ROSENWACH</div>`)[0];
+            popup_8bf368cc10911ca555a899855baf12c1.setContent(html_cbbf896d229ae9d0a2ba97cdbc65756f);
+        
+
+        marker_0fc9a77c18fd5e5b4bca7422f0d552ee.bindPopup(popup_8bf368cc10911ca555a899855baf12c1)
+        ;
+
+        
+    
+    
+            var marker_4e902411facdac983fe83e0025f5877d = L.marker(
+                [40.48682230270632, -74.50559756512865],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_10e42c56590998a89d35643317f30dd6 = L.popup({"maxWidth": "100%", "tooltip": "None"});
+
+        
+            var html_f65b040cae7e52e692ae0cf9b66428d9 = $(`<div id="html_f65b040cae7e52e692ae0cf9b66428d9" style="width: 100.0%; height: 100.0%;"><b>Name:</b> None</div>`)[0];
+            popup_10e42c56590998a89d35643317f30dd6.setContent(html_f65b040cae7e52e692ae0cf9b66428d9);
+        
+
+        marker_4e902411facdac983fe83e0025f5877d.bindPopup(popup_10e42c56590998a89d35643317f30dd6)
+        ;
+
+        
+    
+    
+            var marker_84259108e8632667fde264d3521e5d77 = L.marker(
+                [40.483963701432906, -74.50304798389695],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_3b8689236d7d05ce8c92a78eba6b8806 = L.popup({"maxWidth": "100%", "tooltip": "50 VERONICA AVE"});
+
+        
+            var html_8b6002fd6c81ded4f6c11584be65641b = $(`<div id="html_8b6002fd6c81ded4f6c11584be65641b" style="width: 100.0%; height: 100.0%;"><b>Name:</b> SOMERSET LOGISTICS CTR,LLC%ALTUS GR</div>`)[0];
+            popup_3b8689236d7d05ce8c92a78eba6b8806.setContent(html_8b6002fd6c81ded4f6c11584be65641b);
+        
+
+        marker_84259108e8632667fde264d3521e5d77.bindPopup(popup_3b8689236d7d05ce8c92a78eba6b8806)
+        ;
+
+        
+    
+    
+            var marker_1878788470d060acae8a6ffa6b773ff5 = L.marker(
+                [40.545175067475604, -74.55169048929743],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_3912c42642f5fd4350338ce8975a2948 = L.popup({"maxWidth": "100%", "tooltip": "None"});
+
+        
+            var html_af39afb41fc1a7d8607f72350c622265 = $(`<div id="html_af39afb41fc1a7d8607f72350c622265" style="width: 100.0%; height: 100.0%;"><b>Name:</b> None</div>`)[0];
+            popup_3912c42642f5fd4350338ce8975a2948.setContent(html_af39afb41fc1a7d8607f72350c622265);
+        
+
+        marker_1878788470d060acae8a6ffa6b773ff5.bindPopup(popup_3912c42642f5fd4350338ce8975a2948)
+        ;
+
+        
+    
+    
+            var marker_7bf3fe0b52fe3118da3f7ff5e52b7daf = L.marker(
+                [40.538506312577056, -74.55123056120057],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_af004b294141e08e18eb65bc8a378040 = L.popup({"maxWidth": "100%", "tooltip": "625 PIERCE ST"});
+
+        
+            var html_ce581bbc0ea319e2da77c70851fdd41e = $(`<div id="html_ce581bbc0ea319e2da77c70851fdd41e" style="width: 100.0%; height: 100.0%;"><b>Name:</b> WESTERN SOMERSET IC II,LLC%NUVEEN</div>`)[0];
+            popup_af004b294141e08e18eb65bc8a378040.setContent(html_ce581bbc0ea319e2da77c70851fdd41e);
+        
+
+        marker_7bf3fe0b52fe3118da3f7ff5e52b7daf.bindPopup(popup_af004b294141e08e18eb65bc8a378040)
+        ;
+
+        
+    
+    
+            var marker_0994b4b7f4db6259f61f7af8884b482a = L.marker(
+                [40.476726309704084, -74.49682069232902],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_75c46fd96648f034d90b67788ac497ab = L.popup({"maxWidth": "100%", "tooltip": "67-69-71 VERONICA AVE"});
+
+        
+            var html_561403c384dde97dba865ea399cf57af = $(`<div id="html_561403c384dde97dba865ea399cf57af" style="width: 100.0%; height: 100.0%;"><b>Name:</b> ENTIN ASSOC.C/O MARC LENNER</div>`)[0];
+            popup_75c46fd96648f034d90b67788ac497ab.setContent(html_561403c384dde97dba865ea399cf57af);
+        
+
+        marker_0994b4b7f4db6259f61f7af8884b482a.bindPopup(popup_75c46fd96648f034d90b67788ac497ab)
+        ;
+
+        
+    
+    
+            var marker_2532369246a6453ea769e70754334ca1 = L.marker(
+                [40.49449897277959, -74.53200800331837],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_37bf630a59d90e18eb944bf64eba8e0a = L.popup({"maxWidth": "100%", "tooltip": "4 RAILROAD AVE"});
+
+        
+            var html_ff264a27856216f0ff50d4293cd9f1ba = $(`<div id="html_ff264a27856216f0ff50d4293cd9f1ba" style="width: 100.0%; height: 100.0%;"><b>Name:</b> ARCHANA ARTS, LLC</div>`)[0];
+            popup_37bf630a59d90e18eb944bf64eba8e0a.setContent(html_ff264a27856216f0ff50d4293cd9f1ba);
+        
+
+        marker_2532369246a6453ea769e70754334ca1.bindPopup(popup_37bf630a59d90e18eb944bf64eba8e0a)
+        ;
+
+        
+    
+    
+            var marker_0edef4af0950d09d9fdf96b1e6bdc821 = L.marker(
+                [40.48815671312222, -74.52076317217858],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_f48aee0d1ad5ad88049a101290de16d3 = L.popup({"maxWidth": "100%", "tooltip": "100 COMMERCE DR"});
+
+        
+            var html_c21a4010b90698e30d7bb4acdc2a106a = $(`<div id="html_c21a4010b90698e30d7bb4acdc2a106a" style="width: 100.0%; height: 100.0%;"><b>Name:</b> L'OREAL USA%AP DEPT TRACEY WILSON</div>`)[0];
+            popup_f48aee0d1ad5ad88049a101290de16d3.setContent(html_c21a4010b90698e30d7bb4acdc2a106a);
+        
+
+        marker_0edef4af0950d09d9fdf96b1e6bdc821.bindPopup(popup_f48aee0d1ad5ad88049a101290de16d3)
+        ;
+
+        
+    
+    
+            var marker_bf3a1468e7d761dd81dc4286f6d4ba20 = L.marker(
+                [40.48668758936661, -74.51305025292575],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_07498868170dc2fddd3802c94bfbb3e1 = L.popup({"maxWidth": "100%", "tooltip": "46 CLYDE RD"});
+
+        
+            var html_b15b71e1df9de051ebaf6979bca243c5 = $(`<div id="html_b15b71e1df9de051ebaf6979bca243c5" style="width: 100.0%; height: 100.0%;"><b>Name:</b> CLYDEROAD46 LLC,</div>`)[0];
+            popup_07498868170dc2fddd3802c94bfbb3e1.setContent(html_b15b71e1df9de051ebaf6979bca243c5);
+        
+
+        marker_bf3a1468e7d761dd81dc4286f6d4ba20.bindPopup(popup_07498868170dc2fddd3802c94bfbb3e1)
+        ;
+
+        
+    
+    
+            var marker_3d2f1e36e234bc2bbbb81c321a3b84a4 = L.marker(
+                [40.535472756586124, -74.55088999591786],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_000f0064a4d605ee639d99c8198c675f = L.popup({"maxWidth": "100%", "tooltip": "1501 COTTONTAIL LA"});
+
+        
+            var html_4597c2263815c4b54738dcefac961ec0 = $(`<div id="html_4597c2263815c4b54738dcefac961ec0" style="width: 100.0%; height: 100.0%;"><b>Name:</b> NISSAN NORTH AMERICA ATT:TAX DEPT</div>`)[0];
+            popup_000f0064a4d605ee639d99c8198c675f.setContent(html_4597c2263815c4b54738dcefac961ec0);
+        
+
+        marker_3d2f1e36e234bc2bbbb81c321a3b84a4.bindPopup(popup_000f0064a4d605ee639d99c8198c675f)
+        ;
+
+        
+    
+    
+            var marker_6a1edcfc90dd08a5160b03ce248677c7 = L.marker(
+                [40.486094088714374, -74.53153829006733],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_2e2542064ae461406cdd2e83917e8dd2 = L.popup({"maxWidth": "100%", "tooltip": "160 S MIDDLEBUSH RD"});
+
+        
+            var html_db406aa1afb8d5d1b743a93af2106a09 = $(`<div id="html_db406aa1afb8d5d1b743a93af2106a09" style="width: 100.0%; height: 100.0%;"><b>Name:</b> PSE&G COMPANY % PROPERTY TAXES</div>`)[0];
+            popup_2e2542064ae461406cdd2e83917e8dd2.setContent(html_db406aa1afb8d5d1b743a93af2106a09);
+        
+
+        marker_6a1edcfc90dd08a5160b03ce248677c7.bindPopup(popup_2e2542064ae461406cdd2e83917e8dd2)
+        ;
+
+        
+    
+    
+            var marker_2b78d91435bd3b9464766f062d5c39a9 = L.marker(
+                [40.4841662679594, -74.5065604008653],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_8125f1be831c3ac0ccec14fa16553d38 = L.popup({"maxWidth": "100%", "tooltip": "17 VERONICA AVE"});
+
+        
+            var html_b52b93b6ee7b55bd36160a9f5ac351fe = $(`<div id="html_b52b93b6ee7b55bd36160a9f5ac351fe" style="width: 100.0%; height: 100.0%;"><b>Name:</b> STAG INDUSTRIAL HOLDINGS, LLC</div>`)[0];
+            popup_8125f1be831c3ac0ccec14fa16553d38.setContent(html_b52b93b6ee7b55bd36160a9f5ac351fe);
+        
+
+        marker_2b78d91435bd3b9464766f062d5c39a9.bindPopup(popup_8125f1be831c3ac0ccec14fa16553d38)
+        ;
+
+        
+    
+    
+            var marker_419a5287752f967a1be3c681bd944bc2 = L.marker(
+                [40.48317401187982, -74.51506643084728],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_c1863ea186ddeefdf488e48f8e57637f = L.popup({"maxWidth": "100%", "tooltip": "110 CLYDE RD"});
+
+        
+            var html_809c11fad0b5d931a985b812006b911f = $(`<div id="html_809c11fad0b5d931a985b812006b911f" style="width: 100.0%; height: 100.0%;"><b>Name:</b> FRANKLIN JT VENT.</div>`)[0];
+            popup_c1863ea186ddeefdf488e48f8e57637f.setContent(html_809c11fad0b5d931a985b812006b911f);
+        
+
+        marker_419a5287752f967a1be3c681bd944bc2.bindPopup(popup_c1863ea186ddeefdf488e48f8e57637f)
+        ;
+
+        
+    
+    
+            var marker_17859cc5f64b5209e2263a50472b7867 = L.marker(
+                [40.484557832239965, -74.51350376363865],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_842b1908c7a38ff6e4f7baca4b732c20 = L.popup({"maxWidth": "100%", "tooltip": "70 CLYDE RD"});
+
+        
+            var html_e2998c6f726050da4d399d638fb929f5 = $(`<div id="html_e2998c6f726050da4d399d638fb929f5" style="width: 100.0%; height: 100.0%;"><b>Name:</b> WEILL, MAURICE M.%SCHOOLHSE PLAZA</div>`)[0];
+            popup_842b1908c7a38ff6e4f7baca4b732c20.setContent(html_e2998c6f726050da4d399d638fb929f5);
+        
+
+        marker_17859cc5f64b5209e2263a50472b7867.bindPopup(popup_842b1908c7a38ff6e4f7baca4b732c20)
+        ;
+
+        
+    
+    
+            var marker_d1858ac3fae41feae872abf71d66d3dd = L.marker(
+                [40.47925900992066, -74.4976106133267],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_c682db54e53b69212f7a95d00a9614f9 = L.popup({"maxWidth": "100%", "tooltip": "56 VERONICA AVE"});
+
+        
+            var html_55e6fa1dfa63c08316a5e6309579d978 = $(`<div id="html_55e6fa1dfa63c08316a5e6309579d978" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 56 VERONICA ASSOCIATES, L.P.</div>`)[0];
+            popup_c682db54e53b69212f7a95d00a9614f9.setContent(html_55e6fa1dfa63c08316a5e6309579d978);
+        
+
+        marker_d1858ac3fae41feae872abf71d66d3dd.bindPopup(popup_c682db54e53b69212f7a95d00a9614f9)
+        ;
+
+        
+    
+    
+            var marker_ee7f72bf63f84df88f02fcb6ce11c005 = L.marker(
+                [40.485999532184536, -74.50147232132149],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_eac4f3a6b6c3b73963dedbfc340d5915 = L.popup({"maxWidth": "100%", "tooltip": "5 SHIRLEY AVE"});
+
+        
+            var html_a7adf6975b5f4f36e62846e507f5386e = $(`<div id="html_a7adf6975b5f4f36e62846e507f5386e" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 5 SHIRLEY AVENUE LLC</div>`)[0];
+            popup_eac4f3a6b6c3b73963dedbfc340d5915.setContent(html_a7adf6975b5f4f36e62846e507f5386e);
+        
+
+        marker_ee7f72bf63f84df88f02fcb6ce11c005.bindPopup(popup_eac4f3a6b6c3b73963dedbfc340d5915)
+        ;
+
+        
+    
+    
+            var marker_7254bb3889bfc9a2e8892901791341d8 = L.marker(
+                [40.48637395328579, -74.50233278122829],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_e87402e56bdca7668abff24fc85caf1f = L.popup({"maxWidth": "100%", "tooltip": "6 SHIRLEY AVE"});
+
+        
+            var html_c6a8b00f1dfd3cce54bfa063135e00cf = $(`<div id="html_c6a8b00f1dfd3cce54bfa063135e00cf" style="width: 100.0%; height: 100.0%;"><b>Name:</b> CPF SOMERSET, LLC</div>`)[0];
+            popup_e87402e56bdca7668abff24fc85caf1f.setContent(html_c6a8b00f1dfd3cce54bfa063135e00cf);
+        
+
+        marker_7254bb3889bfc9a2e8892901791341d8.bindPopup(popup_e87402e56bdca7668abff24fc85caf1f)
+        ;
+
+        
+    
+    
+            var marker_99393abbf656163cfdd053f638cc686a = L.marker(
+                [40.48359132964381, -74.51664233809116],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_e145527fac023a9b9248759f5bf8e17c = L.popup({"maxWidth": "100%", "tooltip": "25 COMMERCE DR"});
+
+        
+            var html_3f89e6c0a6e869095d013d3cef3e0e91 = $(`<div id="html_3f89e6c0a6e869095d013d3cef3e0e91" style="width: 100.0%; height: 100.0%;"><b>Name:</b> WEILL, MAURICE %DOUGLAS FRIEDRICH</div>`)[0];
+            popup_e145527fac023a9b9248759f5bf8e17c.setContent(html_3f89e6c0a6e869095d013d3cef3e0e91);
+        
+
+        marker_99393abbf656163cfdd053f638cc686a.bindPopup(popup_e145527fac023a9b9248759f5bf8e17c)
+        ;
+
+        
+    
+    
+            var marker_c90131946092dd319a256fb6c92db798 = L.marker(
+                [40.52802137375961, -74.56048789916937],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_dda5bef05aa48490750ab5ce70bf9f82 = L.popup({"maxWidth": "100%", "tooltip": "13 JENSEN DRIVE"});
+
+        
+            var html_c32a4377e659a613455c954cb7e6d5ab = $(`<div id="html_c32a4377e659a613455c954cb7e6d5ab" style="width: 100.0%; height: 100.0%;"><b>Name:</b> CICF I-NJ1M01, LLC%CABOT PROPERTIES</div>`)[0];
+            popup_dda5bef05aa48490750ab5ce70bf9f82.setContent(html_c32a4377e659a613455c954cb7e6d5ab);
+        
+
+        marker_c90131946092dd319a256fb6c92db798.bindPopup(popup_dda5bef05aa48490750ab5ce70bf9f82)
+        ;
+
+        
+    
+    
+            var marker_014c338763b3a931d67f710aa9441ef0 = L.marker(
+                [40.485335961805205, -74.50192123187007],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_7c2efa3fed473ad2e5f5f40961d59a59 = L.popup({"maxWidth": "100%", "tooltip": "9 SHIRLEY AVE"});
+
+        
+            var html_c917f7bf621403f30fcb767d2dd0167f = $(`<div id="html_c917f7bf621403f30fcb767d2dd0167f" style="width: 100.0%; height: 100.0%;"><b>Name:</b> BATOUR, BADAOUI</div>`)[0];
+            popup_7c2efa3fed473ad2e5f5f40961d59a59.setContent(html_c917f7bf621403f30fcb767d2dd0167f);
+        
+
+        marker_014c338763b3a931d67f710aa9441ef0.bindPopup(popup_7c2efa3fed473ad2e5f5f40961d59a59)
+        ;
+
+        
+    
+    
+            var marker_abe57d1293a360e8836a6082274e18c2 = L.marker(
+                [40.52687020547383, -74.55322569684843],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_37adce89967348b8a2c4f4bc0c06a508 = L.popup({"maxWidth": "100%", "tooltip": "1 HELLER PARK LA"});
+
+        
+            var html_4d8f2a5625853d3419b37c9b6b5c14e6 = $(`<div id="html_4d8f2a5625853d3419b37c9b6b5c14e6" style="width: 100.0%; height: 100.0%;"><b>Name:</b> MATRIX SOMERSET I LLC</div>`)[0];
+            popup_37adce89967348b8a2c4f4bc0c06a508.setContent(html_4d8f2a5625853d3419b37c9b6b5c14e6);
+        
+
+        marker_abe57d1293a360e8836a6082274e18c2.bindPopup(popup_37adce89967348b8a2c4f4bc0c06a508)
+        ;
+
+        
+    
+    
+            var marker_d22f205b411171e3bad34cb57215c43d = L.marker(
+                [40.48555969136802, -74.51337733229396],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_fc63d7f7f01a49b42f07974b65d72279 = L.popup({"maxWidth": "100%", "tooltip": "60 CLYDE RD"});
+
+        
+            var html_b1194ca3d83e5c29390aa5568deb9793 = $(`<div id="html_b1194ca3d83e5c29390aa5568deb9793" style="width: 100.0%; height: 100.0%;"><b>Name:</b> JIFFY & CLYDE, LLC%MANDELBAUM</div>`)[0];
+            popup_fc63d7f7f01a49b42f07974b65d72279.setContent(html_b1194ca3d83e5c29390aa5568deb9793);
+        
+
+        marker_d22f205b411171e3bad34cb57215c43d.bindPopup(popup_fc63d7f7f01a49b42f07974b65d72279)
+        ;
+
+        
+    
+    
+            var marker_3f359264dea099418d572fdf9f8120ec = L.marker(
+                [40.48674429838544, -74.50112485307037],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_d572b87dfb7f222b26344bd68c8b285f = L.popup({"maxWidth": "100%", "tooltip": "3 SHIRLEY AVE"});
+
+        
+            var html_1455a304a0d141a81c29aff281992ad5 = $(`<div id="html_1455a304a0d141a81c29aff281992ad5" style="width: 100.0%; height: 100.0%;"><b>Name:</b> LOTTABLOC LLC.</div>`)[0];
+            popup_d572b87dfb7f222b26344bd68c8b285f.setContent(html_1455a304a0d141a81c29aff281992ad5);
+        
+
+        marker_3f359264dea099418d572fdf9f8120ec.bindPopup(popup_d572b87dfb7f222b26344bd68c8b285f)
+        ;
+
+        
+    
+    
+            var marker_4d28d0fe25a315e69e36315c00f5a7cc = L.marker(
+                [40.4863476443892, -74.52227512328905],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_0953a4dfbc27d42d463c14f8a83b20c8 = L.popup({"maxWidth": "100%", "tooltip": "95 COMMERCE DR"});
+
+        
+            var html_187325558c14aeabaa9e9385aa614341 = $(`<div id="html_187325558c14aeabaa9e9385aa614341" style="width: 100.0%; height: 100.0%;"><b>Name:</b> WEILL, MAURICE%DOUGLAS FRIEDRICH</div>`)[0];
+            popup_0953a4dfbc27d42d463c14f8a83b20c8.setContent(html_187325558c14aeabaa9e9385aa614341);
+        
+
+        marker_4d28d0fe25a315e69e36315c00f5a7cc.bindPopup(popup_0953a4dfbc27d42d463c14f8a83b20c8)
+        ;
+
+        
+    
+    
+            var marker_fc9a2de81c75ffa48dd91f93713612a1 = L.marker(
+                [40.47799827797564, -74.49907329376191],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_0351f85f94b92e83e790eb7c6a95af66 = L.popup({"maxWidth": "100%", "tooltip": "55 VERONICA AVE"});
+
+        
+            var html_9fabb8aaf2e5506ef999b05574d47b28 = $(`<div id="html_9fabb8aaf2e5506ef999b05574d47b28" style="width: 100.0%; height: 100.0%;"><b>Name:</b> HIS COMPANY/ATTN: TAX DEPT.</div>`)[0];
+            popup_0351f85f94b92e83e790eb7c6a95af66.setContent(html_9fabb8aaf2e5506ef999b05574d47b28);
+        
+
+        marker_fc9a2de81c75ffa48dd91f93713612a1.bindPopup(popup_0351f85f94b92e83e790eb7c6a95af66)
+        ;
+
+        
+    
+    
+            var marker_4ccf747cf134a66ed3f2dcf52ffdb5d9 = L.marker(
+                [40.527964541281406, -74.55823134860013],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_492c8a09945899236a4ecb4c194b9b38 = L.popup({"maxWidth": "100%", "tooltip": "None"});
+
+        
+            var html_14d32faed12793a2d9d7c90611e5dfda = $(`<div id="html_14d32faed12793a2d9d7c90611e5dfda" style="width: 100.0%; height: 100.0%;"><b>Name:</b> None</div>`)[0];
+            popup_492c8a09945899236a4ecb4c194b9b38.setContent(html_14d32faed12793a2d9d7c90611e5dfda);
+        
+
+        marker_4ccf747cf134a66ed3f2dcf52ffdb5d9.bindPopup(popup_492c8a09945899236a4ecb4c194b9b38)
+        ;
+
+        
+    
+    
+            var marker_eac97996c8a11e432cd005492a0aed59 = L.marker(
+                [40.476988760563486, -74.49726758792252],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_78cd81f80d73f1ec484582c596e5d95f = L.popup({"maxWidth": "100%", "tooltip": "63 VERONICA AVE"});
+
+        
+            var html_5bfa1beac36728c212480119dc4db56b = $(`<div id="html_5bfa1beac36728c212480119dc4db56b" style="width: 100.0%; height: 100.0%;"><b>Name:</b> VERONICA PROPERTY, LLC</div>`)[0];
+            popup_78cd81f80d73f1ec484582c596e5d95f.setContent(html_5bfa1beac36728c212480119dc4db56b);
+        
+
+        marker_eac97996c8a11e432cd005492a0aed59.bindPopup(popup_78cd81f80d73f1ec484582c596e5d95f)
+        ;
+
+        
+    
+    
+            var marker_e80da328c775d82f6d66f7239986a174 = L.marker(
+                [40.48645780729494, -74.50455484116739],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_2af5943632db3c30c8315ee2060b756f = L.popup({"maxWidth": "100%", "tooltip": "7 VERONICA AVE"});
+
+        
+            var html_a7b685e724fb3e76d1dcb7d88929cc42 = $(`<div id="html_a7b685e724fb3e76d1dcb7d88929cc42" style="width: 100.0%; height: 100.0%;"><b>Name:</b> ALLIABILITY, LLC % ALBERT BERLIN</div>`)[0];
+            popup_2af5943632db3c30c8315ee2060b756f.setContent(html_a7b685e724fb3e76d1dcb7d88929cc42);
+        
+
+        marker_e80da328c775d82f6d66f7239986a174.bindPopup(popup_2af5943632db3c30c8315ee2060b756f)
+        ;
+
+        
+    
+    
+            var marker_0d4ed9a19f9a69444031044bd45062f2 = L.marker(
+                [40.484636518073465, -74.51499549229376],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_044cc0ce1a96c2f1c49b55a57e854248 = L.popup({"maxWidth": "100%", "tooltip": "20 COMMERCE DR"});
+
+        
+            var html_5905db46c9f6ef90b347321107a906a5 = $(`<div id="html_5905db46c9f6ef90b347321107a906a5" style="width: 100.0%; height: 100.0%;"><b>Name:</b> THC NEW JERSEY LLC,</div>`)[0];
+            popup_044cc0ce1a96c2f1c49b55a57e854248.setContent(html_5905db46c9f6ef90b347321107a906a5);
+        
+
+        marker_0d4ed9a19f9a69444031044bd45062f2.bindPopup(popup_044cc0ce1a96c2f1c49b55a57e854248)
+        ;
+
+        
+    
+    
+            var marker_99cdcfefdc17f350e2ecabaf942ca7df = L.marker(
+                [40.48576323894531, -74.52123049802559],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_f3093629d6d2986c3c48695d6fffe2e0 = L.popup({"maxWidth": "100%", "tooltip": "85 COMMERCE DR"});
+
+        
+            var html_848acadfd63ff4dfba016e3c4362e623 = $(`<div id="html_848acadfd63ff4dfba016e3c4362e623" style="width: 100.0%; height: 100.0%;"><b>Name:</b> ROLLING FRITO-LAY%GEORGE MCELROY</div>`)[0];
+            popup_f3093629d6d2986c3c48695d6fffe2e0.setContent(html_848acadfd63ff4dfba016e3c4362e623);
+        
+
+        marker_99cdcfefdc17f350e2ecabaf942ca7df.bindPopup(popup_f3093629d6d2986c3c48695d6fffe2e0)
+        ;
+
+        
+    
+    
+            var marker_8d5c5dcd1d7483281932c4998fbdde69 = L.marker(
+                [40.48435830289287, -74.5089356629363],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_a127a589582beaace95a1774cd550bc7 = L.popup({"maxWidth": "100%", "tooltip": "21 ROOSEVELT AVE"});
+
+        
+            var html_109536d487daa9d77db6fc100b055eae = $(`<div id="html_109536d487daa9d77db6fc100b055eae" style="width: 100.0%; height: 100.0%;"><b>Name:</b> JOH ASSOCIATES LLC</div>`)[0];
+            popup_a127a589582beaace95a1774cd550bc7.setContent(html_109536d487daa9d77db6fc100b055eae);
+        
+
+        marker_8d5c5dcd1d7483281932c4998fbdde69.bindPopup(popup_a127a589582beaace95a1774cd550bc7)
+        ;
+
+        
+    
+    
+            var marker_97cf495cf7c878266ffbcbbd34194da3 = L.marker(
+                [40.53372755428971, -74.55569509131496],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_791faffb7de65d3002c9ef4d9924fe09 = L.popup({"maxWidth": "100%", "tooltip": "850 RANDOLPH RD"});
+
+        
+            var html_f2b4ae4a5c2c6ea6fba6ade546f92e52 = $(`<div id="html_f2b4ae4a5c2c6ea6fba6ade546f92e52" style="width: 100.0%; height: 100.0%;"><b>Name:</b> H D G MGMT LLC,</div>`)[0];
+            popup_791faffb7de65d3002c9ef4d9924fe09.setContent(html_f2b4ae4a5c2c6ea6fba6ade546f92e52);
+        
+
+        marker_97cf495cf7c878266ffbcbbd34194da3.bindPopup(popup_791faffb7de65d3002c9ef4d9924fe09)
+        ;
+
+        
+    
+    
+            var marker_673f4855f7c76669ade6a506467f02a1 = L.marker(
+                [40.54025057940875, -74.56147450829684],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_70b4eae3387ffcc33b00617e4bee487e = L.popup({"maxWidth": "100%", "tooltip": "601 RANDOLPH ROAD"});
+
+        
+            var html_7a61d17c56fe8a74355f7a057fa007ef = $(`<div id="html_7a61d17c56fe8a74355f7a057fa007ef" style="width: 100.0%; height: 100.0%;"><b>Name:</b> BRIDGE POINT SOMERSET SPEC,LLC</div>`)[0];
+            popup_70b4eae3387ffcc33b00617e4bee487e.setContent(html_7a61d17c56fe8a74355f7a057fa007ef);
+        
+
+        marker_673f4855f7c76669ade6a506467f02a1.bindPopup(popup_70b4eae3387ffcc33b00617e4bee487e)
+        ;
+
+        
+    
+    
+            var marker_c7779f63b4a7f9bbb35e5a877d7cc3c3 = L.marker(
+                [40.48109236464474, -74.5068298512966],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_f4210af16f5bf9d7224435ca0a0bff51 = L.popup({"maxWidth": "100%", "tooltip": "22 ROOSEVELT AVENUE"});
+
+        
+            var html_4973f6988dbe6611e2db4e81d0d9932c = $(`<div id="html_4973f6988dbe6611e2db4e81d0d9932c" style="width: 100.0%; height: 100.0%;"><b>Name:</b> FGC VERONICA, LLC</div>`)[0];
+            popup_f4210af16f5bf9d7224435ca0a0bff51.setContent(html_4973f6988dbe6611e2db4e81d0d9932c);
+        
+
+        marker_c7779f63b4a7f9bbb35e5a877d7cc3c3.bindPopup(popup_f4210af16f5bf9d7224435ca0a0bff51)
+        ;
+
+        
+    
+    
+            var marker_2f83005ecc07ced67ec1b3561f53f855 = L.marker(
+                [40.487717078314176, -74.51604933538995],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_1f5cd6f8a7e622fc8538e14135145636 = L.popup({"maxWidth": "100%", "tooltip": "50 JIFFY RD"});
+
+        
+            var html_6ccc83b5b1a1842be6d2539e70d7fe62 = $(`<div id="html_6ccc83b5b1a1842be6d2539e70d7fe62" style="width: 100.0%; height: 100.0%;"><b>Name:</b> JIFFY PROPERTIES,LLC%LIVING QUARTER</div>`)[0];
+            popup_1f5cd6f8a7e622fc8538e14135145636.setContent(html_6ccc83b5b1a1842be6d2539e70d7fe62);
+        
+
+        marker_2f83005ecc07ced67ec1b3561f53f855.bindPopup(popup_1f5cd6f8a7e622fc8538e14135145636)
+        ;
+
+        
+    
+    
+            var marker_5a2668fc8f1ac704812809ef312b984d = L.marker(
+                [40.48250989434769, -74.51573940915492],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_a9b2e36a9d10b49de520f5e523f5386a = L.popup({"maxWidth": "100%", "tooltip": "120 CLYDE RD"});
+
+        
+            var html_ed27b9c22bc347495edb137b713b1757 = $(`<div id="html_ed27b9c22bc347495edb137b713b1757" style="width: 100.0%; height: 100.0%;"><b>Name:</b> WEILL, MAURICE %DOUGLAS FRIEDRICH</div>`)[0];
+            popup_a9b2e36a9d10b49de520f5e523f5386a.setContent(html_ed27b9c22bc347495edb137b713b1757);
+        
+
+        marker_5a2668fc8f1ac704812809ef312b984d.bindPopup(popup_a9b2e36a9d10b49de520f5e523f5386a)
+        ;
+
+        
+    
+    
+            var marker_8d098d6dee3c41aa8908a73932d23626 = L.marker(
+                [40.526074989181666, -74.5590722793569],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_721e0cea2c4773aa5a5cea50addf3a5e = L.popup({"maxWidth": "100%", "tooltip": "None"});
+
+        
+            var html_ce36b83b42e85e8a7e70b639db71bb03 = $(`<div id="html_ce36b83b42e85e8a7e70b639db71bb03" style="width: 100.0%; height: 100.0%;"><b>Name:</b> None</div>`)[0];
+            popup_721e0cea2c4773aa5a5cea50addf3a5e.setContent(html_ce36b83b42e85e8a7e70b639db71bb03);
+        
+
+        marker_8d098d6dee3c41aa8908a73932d23626.bindPopup(popup_721e0cea2c4773aa5a5cea50addf3a5e)
+        ;
+
+        
+    
+    
+            var marker_f18b3affde2de92d6716aa95e00ab0ec = L.marker(
+                [40.48479298382468, -74.51066753745006],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_7f46f1b941f284999885e7583cadc851 = L.popup({"maxWidth": "100%", "tooltip": "65 CLYDE RD"});
+
+        
+            var html_fb39a9fd43eac103859c81c845d0c21e = $(`<div id="html_fb39a9fd43eac103859c81c845d0c21e" style="width: 100.0%; height: 100.0%;"><b>Name:</b> PP TANGO NJ 1, LLC%KENDRALYNN SMITH</div>`)[0];
+            popup_7f46f1b941f284999885e7583cadc851.setContent(html_fb39a9fd43eac103859c81c845d0c21e);
+        
+
+        marker_f18b3affde2de92d6716aa95e00ab0ec.bindPopup(popup_7f46f1b941f284999885e7583cadc851)
+        ;
+
+        
+    
+    
+            var marker_375dafb0896527de250352ee318f5501 = L.marker(
+                [40.48391457573687, -74.514113732293],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_ea8b98ede4ffc9fbf0eb46a2ba3ac428 = L.popup({"maxWidth": "100%", "tooltip": "100 CLYDE RD"});
+
+        
+            var html_30ec0385b206dc0895033b9f93e9bbb3 = $(`<div id="html_30ec0385b206dc0895033b9f93e9bbb3" style="width: 100.0%; height: 100.0%;"><b>Name:</b> WEILL, MAURICE %FRANKLIN FIVE RLTY</div>`)[0];
+            popup_ea8b98ede4ffc9fbf0eb46a2ba3ac428.setContent(html_30ec0385b206dc0895033b9f93e9bbb3);
+        
+
+        marker_375dafb0896527de250352ee318f5501.bindPopup(popup_ea8b98ede4ffc9fbf0eb46a2ba3ac428)
+        ;
+
+        
+    
+    
+            var marker_81266bd34b43c81598a2da545cfa90be = L.marker(
+                [40.478193310430164, -74.49570698640842],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_f356ff2ba3d76ef55d4ba650a28456dc = L.popup({"maxWidth": "100%", "tooltip": "64 VERONICA AVE"});
+
+        
+            var html_ebdc2e0b790d8f3e037860496c9576e4 = $(`<div id="html_ebdc2e0b790d8f3e037860496c9576e4" style="width: 100.0%; height: 100.0%;"><b>Name:</b> ARCTIC LAND CORPORATION</div>`)[0];
+            popup_f356ff2ba3d76ef55d4ba650a28456dc.setContent(html_ebdc2e0b790d8f3e037860496c9576e4);
+        
+
+        marker_81266bd34b43c81598a2da545cfa90be.bindPopup(popup_f356ff2ba3d76ef55d4ba650a28456dc)
+        ;
+
+        
+    
+    
+            var marker_d3c787aa37f860dd1c23bff72a5b674e = L.marker(
+                [40.48613981914916, -74.50348623105937],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_e2951bbc6aed8422518715f2fb2e7b62 = L.popup({"maxWidth": "100%", "tooltip": "10 VERONICA AVE."});
+
+        
+            var html_19d82638ec7b680d434b678652f3e895 = $(`<div id="html_19d82638ec7b680d434b678652f3e895" style="width: 100.0%; height: 100.0%;"><b>Name:</b> ARANY LLC</div>`)[0];
+            popup_e2951bbc6aed8422518715f2fb2e7b62.setContent(html_19d82638ec7b680d434b678652f3e895);
+        
+
+        marker_d3c787aa37f860dd1c23bff72a5b674e.bindPopup(popup_e2951bbc6aed8422518715f2fb2e7b62)
+        ;
+
+        
+    
+    
+            var marker_f37c2dd74bfbd11ef81859d29fb0e92c = L.marker(
+                [40.47774903883934, -74.4986266921546],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_04436d696ccf0b8e62a718e6ba6293f4 = L.popup({"maxWidth": "100%", "tooltip": "57 VERONICA AVE"});
+
+        
+            var html_b384e969b433d0e0e8e42b443f446dd2 = $(`<div id="html_b384e969b433d0e0e8e42b443f446dd2" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 57 VERONICA AVENUE,LLC%PTA-CS#6586</div>`)[0];
+            popup_04436d696ccf0b8e62a718e6ba6293f4.setContent(html_b384e969b433d0e0e8e42b443f446dd2);
+        
+
+        marker_f37c2dd74bfbd11ef81859d29fb0e92c.bindPopup(popup_04436d696ccf0b8e62a718e6ba6293f4)
+        ;
+
+        
+    
+    
+            var marker_42c0e47e9d69ce8189e22244ec263b9c = L.marker(
+                [40.48413815769531, -74.51765350023246],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_42b7a084fe9dc5b926b689b18dff13b5 = L.popup({"maxWidth": "100%", "tooltip": "35 COMMERCE DR"});
+
+        
+            var html_f832b4fe75a7bfe7ecbb6bd197d80907 = $(`<div id="html_f832b4fe75a7bfe7ecbb6bd197d80907" style="width: 100.0%; height: 100.0%;"><b>Name:</b> FRANKLIN EIGHT REALTY, LLC</div>`)[0];
+            popup_42b7a084fe9dc5b926b689b18dff13b5.setContent(html_f832b4fe75a7bfe7ecbb6bd197d80907);
+        
+
+        marker_42c0e47e9d69ce8189e22244ec263b9c.bindPopup(popup_42b7a084fe9dc5b926b689b18dff13b5)
+        ;
+
+        
+    
+    
+            var marker_b990aec1d79dc18ed7fceb7b90baabce = L.marker(
+                [40.485613479419584, -74.5035345842996],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_36694850eeb9538a3adb9e93f9243622 = L.popup({"maxWidth": "100%", "tooltip": "223 CHURCHILL AVE"});
+
+        
+            var html_2a63958a2de057144cbfa13fc542840e = $(`<div id="html_2a63958a2de057144cbfa13fc542840e" style="width: 100.0%; height: 100.0%;"><b>Name:</b> PERMABOND LLC,</div>`)[0];
+            popup_36694850eeb9538a3adb9e93f9243622.setContent(html_2a63958a2de057144cbfa13fc542840e);
+        
+
+        marker_b990aec1d79dc18ed7fceb7b90baabce.bindPopup(popup_36694850eeb9538a3adb9e93f9243622)
+        ;
+
+        
+    
+    
+            var marker_b33f79cb2048c36c227ffb72d97b3035 = L.marker(
+                [40.485460830319425, -74.50543719631209],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_2c1e3230f2a8baafe67b48d3d044b262 = L.popup({"maxWidth": "100%", "tooltip": "15 VERONICA AVE"});
+
+        
+            var html_96bafc99ebef5b49612b2a5299578e8f = $(`<div id="html_96bafc99ebef5b49612b2a5299578e8f" style="width: 100.0%; height: 100.0%;"><b>Name:</b> THE GEORGE ANDERSON L.P.</div>`)[0];
+            popup_2c1e3230f2a8baafe67b48d3d044b262.setContent(html_96bafc99ebef5b49612b2a5299578e8f);
+        
+
+        marker_b33f79cb2048c36c227ffb72d97b3035.bindPopup(popup_2c1e3230f2a8baafe67b48d3d044b262)
+        ;
+
+        
+    
+    
+            var marker_ff176c698050342649c374936cfb07a2 = L.marker(
+                [40.530910076577975, -74.54272810236009],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_b71a4427582e58b7a0b03f92db7f57bb = L.popup({"maxWidth": "100%", "tooltip": "243 BELMONT DR"});
+
+        
+            var html_126b5e3e8de2d8a28459e7fd3838b93c = $(`<div id="html_126b5e3e8de2d8a28459e7fd3838b93c" style="width: 100.0%; height: 100.0%;"><b>Name:</b> AL ASSET MANAGEMENT CORP</div>`)[0];
+            popup_b71a4427582e58b7a0b03f92db7f57bb.setContent(html_126b5e3e8de2d8a28459e7fd3838b93c);
+        
+
+        marker_ff176c698050342649c374936cfb07a2.bindPopup(popup_b71a4427582e58b7a0b03f92db7f57bb)
+        ;
+
+        
+    
+    
+            var marker_51c62acb3625c380d6f10530345dc21a = L.marker(
+                [40.53349463173326, -74.53583718326097],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_e81f8a8750345766809253258f57b8b4 = L.popup({"maxWidth": "100%", "tooltip": "417 ELIZABETH AVE"});
+
+        
+            var html_0253553f394fdc85b88dc70d35aba174 = $(`<div id="html_0253553f394fdc85b88dc70d35aba174" style="width: 100.0%; height: 100.0%;"><b>Name:</b> BALOGH ASSOCS II, LLC</div>`)[0];
+            popup_e81f8a8750345766809253258f57b8b4.setContent(html_0253553f394fdc85b88dc70d35aba174);
+        
+
+        marker_51c62acb3625c380d6f10530345dc21a.bindPopup(popup_e81f8a8750345766809253258f57b8b4)
+        ;
+
+        
+    
+    
+            var marker_d8298e3931718debfca9161ca75560a7 = L.marker(
+                [40.53304683351847, -74.54517824505757],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_650b2daea0afa7af582afb2a125f76fa = L.popup({"maxWidth": "100%", "tooltip": "230 BELMONT DR"});
+
+        
+            var html_aba2d48d981ebba356c31c59fa750251 = $(`<div id="html_aba2d48d981ebba356c31c59fa750251" style="width: 100.0%; height: 100.0%;"><b>Name:</b> SFG NEWLAND SOMERSET, LLC</div>`)[0];
+            popup_650b2daea0afa7af582afb2a125f76fa.setContent(html_aba2d48d981ebba356c31c59fa750251);
+        
+
+        marker_d8298e3931718debfca9161ca75560a7.bindPopup(popup_650b2daea0afa7af582afb2a125f76fa)
+        ;
+
+        
+    
+    
+            var marker_99e0f0e595e44b3bf6203068ed75a292 = L.marker(
+                [40.53592905134941, -74.52653206169171],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_0b53bf624629f6167f7f9b9716371c49 = L.popup({"maxWidth": "100%", "tooltip": "300 FRANKLIN SQ"});
+
+        
+            var html_4ae7b6db03a85ef670cff509c0c5c465 = $(`<div id="html_4ae7b6db03a85ef670cff509c0c5c465" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 800 CENTENNIAL AVENUE, LLC</div>`)[0];
+            popup_0b53bf624629f6167f7f9b9716371c49.setContent(html_4ae7b6db03a85ef670cff509c0c5c465);
+        
+
+        marker_99e0f0e595e44b3bf6203068ed75a292.bindPopup(popup_0b53bf624629f6167f7f9b9716371c49)
+        ;
+
+        
+    
+    
+            var marker_3234abffe1b05d1e2853aba2bd13d7ce = L.marker(
+                [40.534790014573396, -74.51492487792179],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_7ec35dc5516a0df2cc7bf9d321edc948 = L.popup({"maxWidth": "100%", "tooltip": "None"});
+
+        
+            var html_9124c65fbe373fd2d0d6db024376facb = $(`<div id="html_9124c65fbe373fd2d0d6db024376facb" style="width: 100.0%; height: 100.0%;"><b>Name:</b> None</div>`)[0];
+            popup_7ec35dc5516a0df2cc7bf9d321edc948.setContent(html_9124c65fbe373fd2d0d6db024376facb);
+        
+
+        marker_3234abffe1b05d1e2853aba2bd13d7ce.bindPopup(popup_7ec35dc5516a0df2cc7bf9d321edc948)
+        ;
+
+        
+    
+    
+            var marker_be3df074c372e229ece4e6f8205ce9c2 = L.marker(
+                [40.532777242384974, -74.54122560805395],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_242eaa73b80a16e92d3ef4ae4668322b = L.popup({"maxWidth": "100%", "tooltip": "1 WILEY DR"});
+
+        
+            var html_3c00d2edadbe699d510cb6c07f4b93b8 = $(`<div id="html_3c00d2edadbe699d510cb6c07f4b93b8" style="width: 100.0%; height: 100.0%;"><b>Name:</b> CABOT IV - NJ1W02,LLC%SMITH, K.</div>`)[0];
+            popup_242eaa73b80a16e92d3ef4ae4668322b.setContent(html_3c00d2edadbe699d510cb6c07f4b93b8);
+        
+
+        marker_be3df074c372e229ece4e6f8205ce9c2.bindPopup(popup_242eaa73b80a16e92d3ef4ae4668322b)
+        ;
+
+        
+    
+    
+            var marker_e89c26fc2edd051142c27df38f4256bb = L.marker(
+                [40.52537909416753, -74.52020818254285],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_bd516019d28d8801b0bc1c5c2b448b4a = L.popup({"maxWidth": "100%", "tooltip": "101-103 CEDAR GROVE LA"});
+
+        
+            var html_0934b92ab6c971062b1282f7f6559b8a = $(`<div id="html_0934b92ab6c971062b1282f7f6559b8a" style="width: 100.0%; height: 100.0%;"><b>Name:</b> PUBLIC FINANCE AUTHORITY</div>`)[0];
+            popup_bd516019d28d8801b0bc1c5c2b448b4a.setContent(html_0934b92ab6c971062b1282f7f6559b8a);
+        
+
+        marker_e89c26fc2edd051142c27df38f4256bb.bindPopup(popup_bd516019d28d8801b0bc1c5c2b448b4a)
+        ;
+
+        
+    
+    
+            var marker_e81ce2ee21017fbe108beb9ad0e3eb04 = L.marker(
+                [40.47573474637855, -74.49502086635844],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_7756a7163461b1b2b11ae59e46c34208 = L.popup({"maxWidth": "100%", "tooltip": "73 VERONICA AVE"});
+
+        
+            var html_2878849b5c9361703c1bb0e50e6dc42d = $(`<div id="html_2878849b5c9361703c1bb0e50e6dc42d" style="width: 100.0%; height: 100.0%;"><b>Name:</b> AT&T CORPORATION%PROPERTY TAX DEPT.</div>`)[0];
+            popup_7756a7163461b1b2b11ae59e46c34208.setContent(html_2878849b5c9361703c1bb0e50e6dc42d);
+        
+
+        marker_e81ce2ee21017fbe108beb9ad0e3eb04.bindPopup(popup_7756a7163461b1b2b11ae59e46c34208)
+        ;
+
+        
+    
+    
+            var marker_c8b06fb5f3bf3d304226fceea4789348 = L.marker(
+                [40.54643090728136, -74.54020189704553],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_85a44345684df813bc1ec47ab90fb818 = L.popup({"maxWidth": "100%", "tooltip": "None"});
+
+        
+            var html_13126e10706e0bca4163c351291ab012 = $(`<div id="html_13126e10706e0bca4163c351291ab012" style="width: 100.0%; height: 100.0%;"><b>Name:</b> None</div>`)[0];
+            popup_85a44345684df813bc1ec47ab90fb818.setContent(html_13126e10706e0bca4163c351291ab012);
+        
+
+        marker_c8b06fb5f3bf3d304226fceea4789348.bindPopup(popup_85a44345684df813bc1ec47ab90fb818)
+        ;
+
+        
+    
+    
+            var marker_b9f602009198780edc3ce98c99f242f9 = L.marker(
+                [40.47599385060784, -74.49168710296834],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_da25bd8a70629a0e9df9f830049a32d8 = L.popup({"maxWidth": "100%", "tooltip": "80 VERONICA AVE"});
+
+        
+            var html_a404aa114cb3db8b5eed8b272c60c728 = $(`<div id="html_a404aa114cb3db8b5eed8b272c60c728" style="width: 100.0%; height: 100.0%;"><b>Name:</b> FINGER FAMILY, LLC</div>`)[0];
+            popup_da25bd8a70629a0e9df9f830049a32d8.setContent(html_a404aa114cb3db8b5eed8b272c60c728);
+        
+
+        marker_b9f602009198780edc3ce98c99f242f9.bindPopup(popup_da25bd8a70629a0e9df9f830049a32d8)
+        ;
+
+        
+    
+    
+            var marker_8342c1ffe7ff079660af8c2d7492017e = L.marker(
+                [40.47713296299406, -74.49380883237858],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_80bde3b1828f719f742a7772b55a3c16 = L.popup({"maxWidth": "100%", "tooltip": "72 VERONICA AVE"});
+
+        
+            var html_dfba08c8debff3425aa589f7b6f4805a = $(`<div id="html_dfba08c8debff3425aa589f7b6f4805a" style="width: 100.0%; height: 100.0%;"><b>Name:</b> VERONICA DEVELOPMENT ASSOC, LLC</div>`)[0];
+            popup_80bde3b1828f719f742a7772b55a3c16.setContent(html_dfba08c8debff3425aa589f7b6f4805a);
+        
+
+        marker_8342c1ffe7ff079660af8c2d7492017e.bindPopup(popup_80bde3b1828f719f742a7772b55a3c16)
+        ;
+
+        
+    
+    
+            var marker_96389db846ec0dcc4d223c828232b1ba = L.marker(
+                [40.49161701421279, -74.47170861948354],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_c0d3bc9f77455598f6d136a6ed6c31f4 = L.popup({"maxWidth": "100%", "tooltip": "698 HAMILTON ST"});
+
+        
+            var html_f12ca82c93adc4bc26e813a9fbf60e19 = $(`<div id="html_f12ca82c93adc4bc26e813a9fbf60e19" style="width: 100.0%; height: 100.0%;"><b>Name:</b> HAN, YONG HUN & AN, WHA SOO</div>`)[0];
+            popup_c0d3bc9f77455598f6d136a6ed6c31f4.setContent(html_f12ca82c93adc4bc26e813a9fbf60e19);
+        
+
+        marker_96389db846ec0dcc4d223c828232b1ba.bindPopup(popup_c0d3bc9f77455598f6d136a6ed6c31f4)
+        ;
+
+        
+    
+    
+            var marker_0f0545b6d34ea0f479a870f94af694fb = L.marker(
+                [40.53745837370679, -74.54192047112309],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_e58996c3ad93f4dd47577fe09651d3a5 = L.popup({"maxWidth": "100%", "tooltip": "309-311 PIERCE ST"});
+
+        
+            var html_adff68360e6894acdb825e8e605a9839 = $(`<div id="html_adff68360e6894acdb825e8e605a9839" style="width: 100.0%; height: 100.0%;"><b>Name:</b> FR JH 10 LLC,</div>`)[0];
+            popup_e58996c3ad93f4dd47577fe09651d3a5.setContent(html_adff68360e6894acdb825e8e605a9839);
+        
+
+        marker_0f0545b6d34ea0f479a870f94af694fb.bindPopup(popup_e58996c3ad93f4dd47577fe09651d3a5)
+        ;
+
+        
+    
+    
+            var marker_78bb5ecfd2a63382b040138c12b82ed6 = L.marker(
+                [40.48563910993587, -74.4815494564722],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_450805ec1183d0c0a823ac58988a2b9b = L.popup({"maxWidth": "100%", "tooltip": "696 FRANKLIN BLVD"});
+
+        
+            var html_b9a797ee9b9a951246e70873698447c7 = $(`<div id="html_b9a797ee9b9a951246e70873698447c7" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 696 FRANKLIN BOULEVARD LLC</div>`)[0];
+            popup_450805ec1183d0c0a823ac58988a2b9b.setContent(html_b9a797ee9b9a951246e70873698447c7);
+        
+
+        marker_78bb5ecfd2a63382b040138c12b82ed6.bindPopup(popup_450805ec1183d0c0a823ac58988a2b9b)
+        ;
+
+        
+    
+    
+            var marker_c01099bf08f44add3f2009f81db1ced4 = L.marker(
+                [40.542653532222126, -74.54137394620086],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_ac0d75f5766330fea6ad9520af3b2d03 = L.popup({"maxWidth": "100%", "tooltip": "655 HOWARD AVE"});
+
+        
+            var html_ae2524e901f2d7f5ef283c81ed38ca05 = $(`<div id="html_ae2524e901f2d7f5ef283c81ed38ca05" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 655MIZ, LLC</div>`)[0];
+            popup_ac0d75f5766330fea6ad9520af3b2d03.setContent(html_ae2524e901f2d7f5ef283c81ed38ca05);
+        
+
+        marker_c01099bf08f44add3f2009f81db1ced4.bindPopup(popup_ac0d75f5766330fea6ad9520af3b2d03)
+        ;
+
+        
+    
+    
+            var marker_1d0bf84ab5c3af816c0bf3c9405245b5 = L.marker(
+                [40.536673396206986, -74.53962508019109],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_a7b21faf2e4a045db7084c0f63521500 = L.popup({"maxWidth": "100%", "tooltip": "275/285 PIERCE ST"});
+
+        
+            var html_d87b2bc440cf2687f2f4a69cf981b545 = $(`<div id="html_d87b2bc440cf2687f2f4a69cf981b545" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 275 PIERCE STREET, LLC.%PRO-STAT</div>`)[0];
+            popup_a7b21faf2e4a045db7084c0f63521500.setContent(html_d87b2bc440cf2687f2f4a69cf981b545);
+        
+
+        marker_1d0bf84ab5c3af816c0bf3c9405245b5.bindPopup(popup_a7b21faf2e4a045db7084c0f63521500)
+        ;
+
+        
+    
+    
+            var marker_60f1a9936a669d97e7c8376fa05fc384 = L.marker(
+                [40.53332211014178, -74.51445868961979],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_17d0a35fb82e977fb8b96fcd38c24627 = L.popup({"maxWidth": "100%", "tooltip": "21 WORLDS FAIR DR"});
+
+        
+            var html_8948f5e2af73f8a6e74fd2478b61df4d = $(`<div id="html_8948f5e2af73f8a6e74fd2478b61df4d" style="width: 100.0%; height: 100.0%;"><b>Name:</b> SL 21 WORLDS FAIR DR,LLC%SILVERMAN</div>`)[0];
+            popup_17d0a35fb82e977fb8b96fcd38c24627.setContent(html_8948f5e2af73f8a6e74fd2478b61df4d);
+        
+
+        marker_60f1a9936a669d97e7c8376fa05fc384.bindPopup(popup_17d0a35fb82e977fb8b96fcd38c24627)
+        ;
+
+        
+    
+    
+            var marker_07a2f65920645e4be405b2176b765ac1 = L.marker(
+                [40.54400586764439, -74.54111880075912],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_b2ad9dfd695e278a5415d25985eba02b = L.popup({"maxWidth": "100%", "tooltip": "645 HOWARD AVE"});
+
+        
+            var html_57f87d7999abeb5a7966bd63ea002fd2 = $(`<div id="html_57f87d7999abeb5a7966bd63ea002fd2" style="width: 100.0%; height: 100.0%;"><b>Name:</b> G&I IX 645 HOWARD LLC</div>`)[0];
+            popup_b2ad9dfd695e278a5415d25985eba02b.setContent(html_57f87d7999abeb5a7966bd63ea002fd2);
+        
+
+        marker_07a2f65920645e4be405b2176b765ac1.bindPopup(popup_b2ad9dfd695e278a5415d25985eba02b)
+        ;
+
+        
+    
+    
+            var marker_25653d0dfe455523814df589bf19f2d5 = L.marker(
+                [40.53429832323801, -74.51612236210168],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_bcf888728aa3af81597f37cb1b497904 = L.popup({"maxWidth": "100%", "tooltip": "49 NAPOLEON CT"});
+
+        
+            var html_ec751fed27b8821c2d813bdd4f194467 = $(`<div id="html_ec751fed27b8821c2d813bdd4f194467" style="width: 100.0%; height: 100.0%;"><b>Name:</b> DAP DHADUK II LLC,</div>`)[0];
+            popup_bcf888728aa3af81597f37cb1b497904.setContent(html_ec751fed27b8821c2d813bdd4f194467);
+        
+
+        marker_25653d0dfe455523814df589bf19f2d5.bindPopup(popup_bcf888728aa3af81597f37cb1b497904)
+        ;
+
+        
+    
+    
+            var marker_d127b98ad24b5cb8394c79913a2e7227 = L.marker(
+                [40.4766017283906, -74.49285492108852],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_03b0cafbf19614965b6708f86ddcbf7c = L.popup({"maxWidth": "100%", "tooltip": "76 VERONICA AVE"});
+
+        
+            var html_27939ed196c3bb2224b1b7153aa9c3d1 = $(`<div id="html_27939ed196c3bb2224b1b7153aa9c3d1" style="width: 100.0%; height: 100.0%;"><b>Name:</b> NEW BRUNSWICK INTERNATIONAL,INC.</div>`)[0];
+            popup_03b0cafbf19614965b6708f86ddcbf7c.setContent(html_27939ed196c3bb2224b1b7153aa9c3d1);
+        
+
+        marker_d127b98ad24b5cb8394c79913a2e7227.bindPopup(popup_03b0cafbf19614965b6708f86ddcbf7c)
+        ;
+
+        
+    
+    
+            var marker_e3a97496d5c260d0eb5005b3db3b442b = L.marker(
+                [40.542958793446246, -74.54210623805953],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_3ae3dfc2e50a467ae5d68cc43e517662 = L.popup({"maxWidth": "100%", "tooltip": "659 HOWARD AVE"});
+
+        
+            var html_b7eeece6445fd8eb02241f095d759d2f = $(`<div id="html_b7eeece6445fd8eb02241f095d759d2f" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 655MIZ, LLC</div>`)[0];
+            popup_3ae3dfc2e50a467ae5d68cc43e517662.setContent(html_b7eeece6445fd8eb02241f095d759d2f);
+        
+
+        marker_e3a97496d5c260d0eb5005b3db3b442b.bindPopup(popup_3ae3dfc2e50a467ae5d68cc43e517662)
+        ;
+
+        
+    
+    
+            var marker_069cb4884dae0183113a6ad68f64fa14 = L.marker(
+                [40.535534820331335, -74.54563496637743],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_c230918d44a9ccf5b88e1a9600c4c062 = L.popup({"maxWidth": "100%", "tooltip": "400 PIERCE ST"});
+
+        
+            var html_aae9adea751fb356865c2bca2d2264c9 = $(`<div id="html_aae9adea751fb356865c2bca2d2264c9" style="width: 100.0%; height: 100.0%;"><b>Name:</b> WESTERN SOMERSET IC II,LLC%NUVEEN</div>`)[0];
+            popup_c230918d44a9ccf5b88e1a9600c4c062.setContent(html_aae9adea751fb356865c2bca2d2264c9);
+        
+
+        marker_069cb4884dae0183113a6ad68f64fa14.bindPopup(popup_c230918d44a9ccf5b88e1a9600c4c062)
+        ;
+
+        
+    
+    
+            var marker_61068dc606ebe04c4b76299ad482645b = L.marker(
+                [40.53773487059561, -74.54347608491155],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_bd4a61ea7038083f116d3dcf005c0f43 = L.popup({"maxWidth": "100%", "tooltip": "None"});
+
+        
+            var html_77494e69e01245006d456d14ff6b2163 = $(`<div id="html_77494e69e01245006d456d14ff6b2163" style="width: 100.0%; height: 100.0%;"><b>Name:</b> None</div>`)[0];
+            popup_bd4a61ea7038083f116d3dcf005c0f43.setContent(html_77494e69e01245006d456d14ff6b2163);
+        
+
+        marker_61068dc606ebe04c4b76299ad482645b.bindPopup(popup_bd4a61ea7038083f116d3dcf005c0f43)
+        ;
+
+        
+    
+    
+            var marker_b60005210daeb97352b826bb418f351b = L.marker(
+                [40.48101912615837, -74.48420671864588],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_d5695aad235774f68603549fbee02bac = L.popup({"maxWidth": "100%", "tooltip": "907 SOMERSET ST"});
+
+        
+            var html_ca55ff286163d5d58bc0d82eda062caa = $(`<div id="html_ca55ff286163d5d58bc0d82eda062caa" style="width: 100.0%; height: 100.0%;"><b>Name:</b> ABOUHAYLA,BASSAM</div>`)[0];
+            popup_d5695aad235774f68603549fbee02bac.setContent(html_ca55ff286163d5d58bc0d82eda062caa);
+        
+
+        marker_b60005210daeb97352b826bb418f351b.bindPopup(popup_d5695aad235774f68603549fbee02bac)
+        ;
+
+        
+    
+    
+            var marker_ac6fcf2f648b4d5c395a53044b007a33 = L.marker(
+                [40.53971373468556, -74.53740901547155],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_afc321603209858ec4449a1d71d34b44 = L.popup({"maxWidth": "100%", "tooltip": "133 BELMONT DR"});
+
+        
+            var html_c3227fbfeaf2f8b6af62ad08c869c3ce = $(`<div id="html_c3227fbfeaf2f8b6af62ad08c869c3ce" style="width: 100.0%; height: 100.0%;"><b>Name:</b> PROSALES SPECIALTY CORP</div>`)[0];
+            popup_afc321603209858ec4449a1d71d34b44.setContent(html_c3227fbfeaf2f8b6af62ad08c869c3ce);
+        
+
+        marker_ac6fcf2f648b4d5c395a53044b007a33.bindPopup(popup_afc321603209858ec4449a1d71d34b44)
+        ;
+
+        
+    
+    
+            var marker_d39db9d67f19026adfbcf5394e0178fa = L.marker(
+                [40.49139886831582, -74.47146548348559],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_aaaef8940f3443a6ce5c4e84c84c05dd = L.popup({"maxWidth": "100%", "tooltip": "9 KATHRYN ST"});
+
+        
+            var html_38e09243564d1b200112af04d58afead = $(`<div id="html_38e09243564d1b200112af04d58afead" style="width: 100.0%; height: 100.0%;"><b>Name:</b> HAN, YONG HUN & AN, WHA SOO</div>`)[0];
+            popup_aaaef8940f3443a6ce5c4e84c84c05dd.setContent(html_38e09243564d1b200112af04d58afead);
+        
+
+        marker_d39db9d67f19026adfbcf5394e0178fa.bindPopup(popup_aaaef8940f3443a6ce5c4e84c84c05dd)
+        ;
+
+        
+    
+    
+            var marker_35c507e0de6ac5e6cbb1fb2929ff6e61 = L.marker(
+                [40.53389815155789, -74.55795409905065],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_da7b3a35475641bd8cec515e1f0dace0 = L.popup({"maxWidth": "100%", "tooltip": "None"});
+
+        
+            var html_dc9e6faa9ae528122559ef4e1acc0710 = $(`<div id="html_dc9e6faa9ae528122559ef4e1acc0710" style="width: 100.0%; height: 100.0%;"><b>Name:</b> None</div>`)[0];
+            popup_da7b3a35475641bd8cec515e1f0dace0.setContent(html_dc9e6faa9ae528122559ef4e1acc0710);
+        
+
+        marker_35c507e0de6ac5e6cbb1fb2929ff6e61.bindPopup(popup_da7b3a35475641bd8cec515e1f0dace0)
+        ;
+
+        
+    
+    
+            var marker_ca0d6e17088bd92f26f84ecdaec519f0 = L.marker(
+                [40.48992068884777, -74.46409174772124],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_300572b8b5325c9734e3d56ba1f38d35 = L.popup({"maxWidth": "100%", "tooltip": "459 SOMERSET ST"});
+
+        
+            var html_c3dc2a39a5cfbefedc5982005bc68299 = $(`<div id="html_c3dc2a39a5cfbefedc5982005bc68299" style="width: 100.0%; height: 100.0%;"><b>Name:</b> LAZARUS REALTY IV, LLC</div>`)[0];
+            popup_300572b8b5325c9734e3d56ba1f38d35.setContent(html_c3dc2a39a5cfbefedc5982005bc68299);
+        
+
+        marker_ca0d6e17088bd92f26f84ecdaec519f0.bindPopup(popup_300572b8b5325c9734e3d56ba1f38d35)
+        ;
+
+        
+    
+    
+            var marker_fcd1201eb18b27885a4594dd1758a2b7 = L.marker(
+                [40.52403611354767, -74.54786892960276],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_9c7391e1f2a04607db3471ed698baa93 = L.popup({"maxWidth": "100%", "tooltip": "480 ELIZABETH AVE"});
+
+        
+            var html_887abc6d7628b8516433d4888dce1103 = $(`<div id="html_887abc6d7628b8516433d4888dce1103" style="width: 100.0%; height: 100.0%;"><b>Name:</b> 928 HOLDINGS,LLC</div>`)[0];
+            popup_9c7391e1f2a04607db3471ed698baa93.setContent(html_887abc6d7628b8516433d4888dce1103);
+        
+
+        marker_fcd1201eb18b27885a4594dd1758a2b7.bindPopup(popup_9c7391e1f2a04607db3471ed698baa93)
+        ;
+
+        
+    
+    
+            var marker_e65df9ccc74ea0e5f0d10676bba8f628 = L.marker(
+                [40.54277185868058, -74.54834282207476],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_fd2a09376cd68d04256152703fc67cc4 = L.popup({"maxWidth": "100%", "tooltip": "None"});
+
+        
+            var html_1d76458ac8b06a3db67af77dd8c49a6f = $(`<div id="html_1d76458ac8b06a3db67af77dd8c49a6f" style="width: 100.0%; height: 100.0%;"><b>Name:</b> None</div>`)[0];
+            popup_fd2a09376cd68d04256152703fc67cc4.setContent(html_1d76458ac8b06a3db67af77dd8c49a6f);
+        
+
+        marker_e65df9ccc74ea0e5f0d10676bba8f628.bindPopup(popup_fd2a09376cd68d04256152703fc67cc4)
+        ;
+
+        
+    
+    
+            var marker_e73fc586a9662e68fdae56940a0fd054 = L.marker(
+                [40.549045961298134, -74.5486822917413],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_4246e7e53e3b97a1d5989e7be33dcdf0 = L.popup({"maxWidth": "100%", "tooltip": "415 WESTON CANAL RD"});
+
+        
+            var html_7973a4ff2d11ccb6da4c64ee35a4a225 = $(`<div id="html_7973a4ff2d11ccb6da4c64ee35a4a225" style="width: 100.0%; height: 100.0%;"><b>Name:</b> SOMERSET PROPERTIES REALTY,LP</div>`)[0];
+            popup_4246e7e53e3b97a1d5989e7be33dcdf0.setContent(html_7973a4ff2d11ccb6da4c64ee35a4a225);
+        
+
+        marker_e73fc586a9662e68fdae56940a0fd054.bindPopup(popup_4246e7e53e3b97a1d5989e7be33dcdf0)
+        ;
+
+        
+    
+    
+            var marker_17e849d7182aa1d9352ed7bdb48ffbc1 = L.marker(
+                [40.54543731525637, -74.54807120877611],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_92bb8e73c813e43a8c1abfff77d55c02 = L.popup({"maxWidth": "100%", "tooltip": "None"});
+
+        
+            var html_332ca994b17d690b7fd48ff0a19b41cf = $(`<div id="html_332ca994b17d690b7fd48ff0a19b41cf" style="width: 100.0%; height: 100.0%;"><b>Name:</b> None</div>`)[0];
+            popup_92bb8e73c813e43a8c1abfff77d55c02.setContent(html_332ca994b17d690b7fd48ff0a19b41cf);
+        
+
+        marker_17e849d7182aa1d9352ed7bdb48ffbc1.bindPopup(popup_92bb8e73c813e43a8c1abfff77d55c02)
+        ;
+
+        
+    
+    
+            var marker_782f547651449082890e4b4c9436db58 = L.marker(
+                [40.514808746968384, -74.48922763820296],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_51d28fd222c8f4c14e2d582981b8e7a3 = L.popup({"maxWidth": "100%", "tooltip": "1100 EASTON AVE"});
+
+        
+            var html_4d59e9e9c74155a2af804939b8ef2273 = $(`<div id="html_4d59e9e9c74155a2af804939b8ef2273" style="width: 100.0%; height: 100.0%;"><b>Name:</b> STORAGE PARTNERS% PTA - CS #941</div>`)[0];
+            popup_51d28fd222c8f4c14e2d582981b8e7a3.setContent(html_4d59e9e9c74155a2af804939b8ef2273);
+        
+
+        marker_782f547651449082890e4b4c9436db58.bindPopup(popup_51d28fd222c8f4c14e2d582981b8e7a3)
+        ;
+
+        
+    
+    
+            var marker_df187336f6e7d2cf91cb9a4ca5180f03 = L.marker(
+                [40.53332555721697, -74.54830711104093],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_ebb84e4baacd076f8fcb9701100d46cd = L.popup({"maxWidth": "100%", "tooltip": "1600 COTTONTAIL LA"});
+
+        
+            var html_9c9daa0cadcc3f9d34a2dc6013ad3af2 = $(`<div id="html_9c9daa0cadcc3f9d34a2dc6013ad3af2" style="width: 100.0%; height: 100.0%;"><b>Name:</b> WESTERN SOMERSET IC II,LLC%NUVEEN</div>`)[0];
+            popup_ebb84e4baacd076f8fcb9701100d46cd.setContent(html_9c9daa0cadcc3f9d34a2dc6013ad3af2);
+        
+
+        marker_df187336f6e7d2cf91cb9a4ca5180f03.bindPopup(popup_ebb84e4baacd076f8fcb9701100d46cd)
+        ;
+
+        
+    
+    
+            var marker_07d469a96333e009a7b05818169f2f8d = L.marker(
+                [40.482143895590305, -74.50588424865697],
+                {}
+            ).addTo(map_8a000e615547e58ceb1c1777b8c2fb6a);
+        
+    
+        var popup_cd26f6564d3dbe19a3c2904ac3bd5712 = L.popup({"maxWidth": "100%", "tooltip": "23 ROOSEVELT AVENUE"});
+
+        
+            var html_f1525205899962435b1c2fba66d76912 = $(`<div id="html_f1525205899962435b1c2fba66d76912" style="width: 100.0%; height: 100.0%;"><b>Name:</b> FGC VERONICA LLC,</div>`)[0];
+            popup_cd26f6564d3dbe19a3c2904ac3bd5712.setContent(html_f1525205899962435b1c2fba66d76912);
+        
+
+        marker_07d469a96333e009a7b05818169f2f8d.bindPopup(popup_cd26f6564d3dbe19a3c2904ac3bd5712)
+        ;
+
+        
+    
+</script>
+</html>
